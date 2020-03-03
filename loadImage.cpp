@@ -6,7 +6,7 @@ using namespace cv;
 
 
 int main() {
-    Mat image = imread("images/image.jpg", IMREAD_COLOR);
+    Mat image = imread("images/image.jpg", IMREAD_GRAYSCALE);
     imshow("Output", image);
     waitKey(0); 
 
