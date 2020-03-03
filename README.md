@@ -8,8 +8,6 @@ sudo apt-get install fswebcam
 
 일단 패키지가 설치되었다면 터미널에서 커맨드로 한 이미지를 캡처할수있습니다.
 ```
-git clone https://github.com/jetsonworld/fswebcam.git
-cd fswebcam/images
 fswebcam image.jpg
 ```
 
@@ -31,6 +29,7 @@ fswebcam -r 1280x720 --no-banner image.jpg
 
 * loadImage.cpp 컴파일하기
 ```
+git clone https://github.com/jetsonworld/fswebcam.git
 cd fswebcam/images
 fswebcam -r 1280x720 --no-banner image.jpg
 cd ..
