@@ -33,4 +33,5 @@ $ fswebcam -r 1280x720 --no-banner image.jpg
 ```
 cd fswebcam
 g++ -ggdb loadImage.cpp -o loadImage `pkg-config --cflags --libs opencv4`
+./loadImage
 ```
