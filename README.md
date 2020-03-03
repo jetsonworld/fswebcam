@@ -31,7 +31,9 @@ fswebcam -r 1280x720 --no-banner image.jpg
 
 * loadImage.cpp 컴파일하기
 ```
-cd fswebcam
+cd fswebcam/images
+fswebcam -r 1280x720 --no-banner image.jpg
+cd ..
 g++ -ggdb loadImage.cpp -o loadImage `pkg-config --cflags --libs opencv4`
 ./loadImage
 ```
